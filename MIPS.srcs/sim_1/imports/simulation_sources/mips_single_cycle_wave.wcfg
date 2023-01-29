@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mips_single_cycle_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="mips_single_cycle_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="174.433 ns"></ZoomStartTime>
+      <ZoomEndTime time="187.114 ns"></ZoomEndTime>
+      <Cursor1Time time="185.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="216"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/mips_single_cycle_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/watch" type="array">
+      <obj_property name="ElementShortName">watch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">watch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider161">
+      <obj_property name="label">Instruction Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider160">
+      <obj_property name="label">Register File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider162">
+      <obj_property name="label">Data Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/Main_Control_Unit_io/Jump" type="logic">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/ALU_io/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/ALU_io/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/ALU_io/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/ALU_io/ALU_result_internal" type="array">
+      <obj_property name="ElementShortName">ALU_result_internal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_internal[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/RegFile_io/reg_file_mem" type="array">
+      <obj_property name="ElementShortName">reg_file_mem[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file_mem[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/ALU_io/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/ALU_io/ALU_control" type="array">
+      <obj_property name="ElementShortName">ALU_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/DM_io/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/RegFile_io/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/DM_io/dm_mem" type="array">
+      <obj_property name="ElementShortName">dm_mem[0:127][31:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_mem[0:127][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/RegFile_io/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/RegFile_io/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/ALU_io/ALU_control" type="array">
+      <obj_property name="ElementShortName">ALU_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_single_cycle_tb/uut/sign_extend_io/Instruction_15_0_Sign_Extended" type="array">
+      <obj_property name="ElementShortName">Instruction_15_0_Sign_Extended[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_15_0_Sign_Extended[31:0]</obj_property>
+   </wvobject>
+</wave_config>
